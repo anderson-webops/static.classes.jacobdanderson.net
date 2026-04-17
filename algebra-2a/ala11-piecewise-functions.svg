@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" fill="none">
+<rect width="1200" height="660" fill="#f8fafc"/>
+<rect x="24" y="24" width="1152" height="612" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Piecewise Functions</text>
+<text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#475569">Open circles mean the endpoint is excluded. Closed circles mean it is included.</text>
+
+<rect x="60" y="120" width="320" height="460" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="220" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Mixed rule example</text>
+<line x1="100" y1="390" x2="340" y2="390" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="220" y1="180" x2="220" y2="520" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M100 470 L220 350" stroke="#2563eb" stroke-width="4"/>
+<circle cx="220" cy="350" r="8" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+<path d="M220 330 Q260 210 340 390" stroke="#dc2626" stroke-width="4" fill="none"/>
+<circle cx="220" cy="330" r="8" fill="#dc2626"/>
+<text x="220" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">line on one interval, parabola on another</text>
+
+<rect x="440" y="120" width="320" height="460" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Floor function</text>
+<line x1="480" y1="450" x2="720" y2="450" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="560" y1="180" x2="560" y2="520" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M500 420 H560" stroke="#7c3aed" stroke-width="6"/><circle cx="500" cy="420" r="7" fill="#7c3aed"/><circle cx="560" cy="420" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="4"/>
+<path d="M560 360 H620" stroke="#7c3aed" stroke-width="6"/><circle cx="560" cy="360" r="7" fill="#7c3aed"/><circle cx="620" cy="360" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="4"/>
+<path d="M620 300 H680" stroke="#7c3aed" stroke-width="6"/><circle cx="620" cy="300" r="7" fill="#7c3aed"/><circle cx="680" cy="300" r="7" fill="#ffffff" stroke="#7c3aed" stroke-width="4"/>
+<text x="600" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Each interval stays constant, then jumps to the next level.</text>
+
+<rect x="820" y="120" width="320" height="460" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="980" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Absolute value as piecewise</text>
+<line x1="860" y1="450" x2="1100" y2="450" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="980" y1="180" x2="980" y2="520" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M880 250 L980 450 L1080 250" stroke="#16a34a" stroke-width="4" fill="none"/>
+<text x="980" y="552" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Absolute value uses one rule on the left and another on the right.</text>
+</svg>
