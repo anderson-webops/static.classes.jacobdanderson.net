@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+<rect width="1200" height="700" fill="#fff7ed"/>
+
+    <defs>
+      <pattern id="diag" patternUnits="userSpaceOnUse" width="32" height="32" patternTransform="rotate(45)">
+        <rect width="32" height="32" fill="#fff7ed"/>
+        <rect width="16" height="32" fill="#fed7aa" opacity="0.55"/>
+      </pattern>
+    </defs>
+    <rect x="40" y="40" width="1120" height="620" rx="28" fill="url(#diag)" stroke="#c2410c" stroke-width="6" stroke-dasharray="18 14"/>
+    <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#9a3412">INSERT MISSING IMAGE HERE</text>
+    <text x="600" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#7c2d12">The recovered source referenced an image that could not be reconstructed from the available text.</text>
+  
+</svg>
