@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" fill="none">
+<rect width="1200" height="740" fill="#f8fafc"/>
+<rect x="24" y="24" width="1152" height="692" rx="28" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Graphing Sine, Cosine, and Tangent</text>
+<text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Parent functions plus the transformation facts needed for ALB9 and Check-in #2.</text>
+
+<rect x="54" y="122" width="330" height="520" rx="20" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="219" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">y = sin(x)</text>
+<line x1="96" y1="390" x2="342" y2="390" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M96 390 C126 390 150 250 180 250 C210 250 234 530 264 530 C294 530 318 390 342 390" stroke="#2563eb" stroke-width="4" fill="none"/>
+<text x="219" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1d4ed8">Amplitude 1, period 2pi, midline y = 0</text>
+
+<rect x="435" y="122" width="330" height="520" rx="20" fill="#ecfdf5" stroke="#86efac"/>
+<text x="600" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#15803d">y = cos(x)</text>
+<line x1="477" y1="390" x2="723" y2="390" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M477 250 C507 250 531 530 561 530 C591 530 615 250 645 250 C675 250 699 390 723 390" stroke="#16a34a" stroke-width="4" fill="none"/>
+<text x="600" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#166534">Maximum at x = 0, minimum at x = pi</text>
+
+<rect x="816" y="122" width="330" height="520" rx="20" fill="#fff7ed" stroke="#fdba74"/>
+<text x="981" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#c2410c">y = tan(x)</text>
+<line x1="858" y1="390" x2="1104" y2="390" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="900" y1="206" x2="900" y2="574" stroke="#fdba74" stroke-width="2" stroke-dasharray="8 8"/>
+<line x1="1062" y1="206" x2="1062" y2="574" stroke="#fdba74" stroke-width="2" stroke-dasharray="8 8"/>
+<path d="M910 530 C948 470 968 426 980 390 C992 354 1010 310 1052 250" stroke="#ea580c" stroke-width="4" fill="none"/>
+<text x="981" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">Period pi, roots at multiples of pi, vertical asymptotes where cos(x) = 0</text>
+
+<rect x="54" y="664" width="1092" height="30" rx="12" fill="#e2e8f0"/>
+<text x="600" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">For y = a sin(bx) + d or y = a cos(bx) + d: amplitude = |a|, period = 2pi / |b|, midline = y = d. For tangent, period = pi / |b| and there is no amplitude.</text>
+</svg>

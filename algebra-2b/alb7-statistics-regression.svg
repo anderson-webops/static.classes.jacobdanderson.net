@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+<rect width="1200" height="720" fill="#f8fafc"/>
+<rect x="24" y="24" width="1152" height="672" rx="28" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Correlation and Regression</text>
+<text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Positive, negative, and best-fit views used to replace the missing data screenshots.</text>
+
+<rect x="54" y="122" width="330" height="520" rx="20" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="219" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Strong positive</text>
+<line x1="104" y1="530" x2="334" y2="530" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="132" y1="198" x2="132" y2="574" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="156" cy="498" r="7" fill="#2563eb"/>
+<circle cx="184" cy="470" r="7" fill="#2563eb"/>
+<circle cx="214" cy="446" r="7" fill="#2563eb"/>
+<circle cx="244" cy="412" r="7" fill="#2563eb"/>
+<circle cx="278" cy="378" r="7" fill="#2563eb"/>
+<circle cx="308" cy="336" r="7" fill="#2563eb"/>
+<path d="M150 506 L312 332" stroke="#2563eb" stroke-width="3"/>
+<text x="219" y="602" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">r close to 1</text>
+
+<rect x="435" y="122" width="330" height="520" rx="20" fill="#ecfdf5" stroke="#86efac"/>
+<text x="600" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#15803d">Strong negative</text>
+<line x1="486" y1="530" x2="714" y2="530" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="514" y1="198" x2="514" y2="574" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="542" cy="320" r="7" fill="#16a34a"/>
+<circle cx="570" cy="356" r="7" fill="#16a34a"/>
+<circle cx="600" cy="386" r="7" fill="#16a34a"/>
+<circle cx="632" cy="424" r="7" fill="#16a34a"/>
+<circle cx="664" cy="458" r="7" fill="#16a34a"/>
+<circle cx="694" cy="494" r="7" fill="#16a34a"/>
+<path d="M536 314 L700 500" stroke="#16a34a" stroke-width="3"/>
+<text x="600" y="602" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#166534">r close to -1</text>
+
+<rect x="816" y="122" width="330" height="520" rx="20" fill="#fff7ed" stroke="#fdba74"/>
+<text x="981" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#c2410c">Line of best fit</text>
+<line x1="866" y1="530" x2="1096" y2="530" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="894" y1="198" x2="894" y2="574" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="918" cy="482" r="7" fill="#ea580c"/>
+<circle cx="946" cy="440" r="7" fill="#ea580c"/>
+<circle cx="980" cy="450" r="7" fill="#ea580c"/>
+<circle cx="1010" cy="412" r="7" fill="#ea580c"/>
+<circle cx="1042" cy="392" r="7" fill="#ea580c"/>
+<circle cx="1070" cy="356" r="7" fill="#ea580c"/>
+<path d="M910 486 L1080 352" stroke="#c2410c" stroke-width="3"/>
+<text x="981" y="584" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">Regression line estimates y from x.</text>
+<text x="981" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">r^2 tells how much of the variation is explained by the line.</text>
+</svg>

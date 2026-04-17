@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+<rect width="1200" height="700" fill="#f8fafc"/>
+<rect x="24" y="24" width="1152" height="652" rx="28" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Arithmetic Sequences and Series</text>
+<text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">The nth-term formula tracks one term. The series formula totals a full list of terms.</text>
+
+<rect x="54" y="122" width="500" height="504" rx="20" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="304" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Sequence picture</text>
+<line x1="108" y1="520" x2="492" y2="520" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="148" y1="186" x2="148" y2="566" stroke="#0f172a" stroke-width="1.5"/>
+<path d="M148 466 L204 430 L260 394 L316 358 L372 322" stroke="#2563eb" stroke-width="3" fill="none"/>
+<circle cx="148" cy="466" r="7" fill="#2563eb"/>
+<circle cx="204" cy="430" r="7" fill="#2563eb"/>
+<circle cx="260" cy="394" r="7" fill="#2563eb"/>
+<circle cx="316" cy="358" r="7" fill="#2563eb"/>
+<circle cx="372" cy="322" r="7" fill="#2563eb"/>
+<text x="304" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1d4ed8">Example: 4, 7, 10, 13, ... has common difference d = 3</text>
+<text x="304" y="604" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e3a8a">a_n = a_1 + d(n - 1)</text>
+
+<rect x="606" y="122" width="540" height="504" rx="20" fill="#fefce8" stroke="#fcd34d"/>
+<text x="876" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#a16207">Pairing the first and last terms</text>
+<rect x="650" y="208" width="452" height="302" rx="16" fill="#ffffff" stroke="#fde68a"/>
+<text x="876" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#854d0e">10 + 20 + 30 + ... + 90 + 100</text>
+<line x1="706" y1="296" x2="1046" y2="296" stroke="#0f172a" stroke-width="2"/>
+<line x1="706" y1="372" x2="1046" y2="372" stroke="#0f172a" stroke-width="2"/>
+<text x="876" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">10 + 100 = 110</text>
+<text x="876" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">20 + 90 = 110</text>
+<text x="876" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">30 + 80 = 110</text>
+<text x="876" y="558" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#854d0e">S_n = n(a_1 + a_n) / 2</text>
+</svg>

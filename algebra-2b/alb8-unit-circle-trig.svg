@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+<rect width="1200" height="720" fill="#f8fafc"/>
+<rect x="24" y="24" width="1152" height="672" rx="28" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Unit Circle and Trig Basics</text>
+<text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Special-angle coordinates, degree-radian conversions, and right-triangle ratio reminders.</text>
+
+<rect x="54" y="122" width="640" height="520" rx="20" fill="#eff6ff" stroke="#93c5fd"/>
+<text x="374" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Unit circle</text>
+<line x1="374" y1="200" x2="374" y2="580" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="154" y1="390" x2="594" y2="390" stroke="#0f172a" stroke-width="1.5"/>
+<circle cx="374" cy="390" r="170" stroke="#2563eb" stroke-width="4"/>
+<line x1="374" y1="390" x2="521" y2="305" stroke="#2563eb" stroke-width="3"/>
+<line x1="374" y1="390" x2="494" y2="511" stroke="#16a34a" stroke-width="3"/>
+<line x1="374" y1="390" x2="227" y2="305" stroke="#dc2626" stroke-width="3"/>
+<circle cx="521" cy="305" r="7" fill="#2563eb"/>
+<circle cx="494" cy="511" r="7" fill="#16a34a"/>
+<circle cx="227" cy="305" r="7" fill="#dc2626"/>
+<text x="548" y="300" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">60 deg = pi/3</text>
+<text x="548" y="324" font-family="Arial, sans-serif" font-size="15" fill="#1d4ed8">(1/2, sqrt(3)/2)</text>
+<text x="498" y="548" font-family="Arial, sans-serif" font-size="16" fill="#166534">315 deg = 7pi/4</text>
+<text x="498" y="572" font-family="Arial, sans-serif" font-size="15" fill="#166534">(sqrt(2)/2, -sqrt(2)/2)</text>
+<text x="144" y="300" font-family="Arial, sans-serif" font-size="16" fill="#b91c1c">150 deg = 5pi/6</text>
+<text x="140" y="324" font-family="Arial, sans-serif" font-size="15" fill="#b91c1c">(-sqrt(3)/2, 1/2)</text>
+
+<rect x="738" y="122" width="408" height="520" rx="20" fill="#fff7ed" stroke="#fdba74"/>
+<text x="942" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#c2410c">Right-triangle ratios</text>
+<path d="M832 470 L832 286 L1018 470 Z" fill="#ffedd5" stroke="#f97316" stroke-width="3"/>
+<text x="924" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">adjacent</text>
+<text x="816" y="380" text-anchor="end" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">opposite</text>
+<text x="942" y="364" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">hypotenuse</text>
+<text x="942" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">sin(theta) = opposite / hypotenuse</text>
+<text x="942" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">cos(theta) = adjacent / hypotenuse</text>
+<text x="942" y="624" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">tan(theta) = opposite / adjacent</text>
+</svg>
