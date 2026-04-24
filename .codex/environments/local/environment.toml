@@ -1,0 +1,25 @@
+version = 1
+name = "static.classes.jacobdanderson.net"
+
+[setup]
+script = """
+git lfs install --local
+git lfs pull
+git lfs checkout
+./scripts/verify-lfs-checkout.sh
+"""
+
+[[actions]]
+name = "LFS Pull"
+icon = "tool"
+command = "git lfs pull && git lfs checkout"
+
+[[actions]]
+name = "Verify LFS"
+icon = "test"
+command = "./scripts/verify-lfs-checkout.sh"
+
+[[actions]]
+name = "Git Status"
+icon = "tool"
+command = "git status --short"
