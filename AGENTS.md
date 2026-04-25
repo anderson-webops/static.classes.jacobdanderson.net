@@ -14,3 +14,11 @@
 - If the existing tag or release history contains stale drafts, redundant entries, or ad-hoc labels, clean that history up instead of preserving clutter.
 - Skip tags and releases for trivial doc-only edits, formatting-only changes, or routine housekeeping unless they change deployment, operations, or a consumer-facing contract.
 - Do not publish releases for one-off asset drops or housekeeping unless they are part of a deliberate shipped snapshot.
+
+## Dependency & Lockfile Discipline
+
+- This repository currently has no package-managed build or lockfile. Do not invent dependency verification commands that cannot run here.
+- If a `package.json`, workspace manifest, dependency range, lockfile, or dependency update tool is added later, treat the repo-root clean install path as the source of truth for deploy readiness.
+- For npm-based additions, follow the root `npm ci` discipline: run `npm ci`, `npm run lint`, `npm run typecheck`, and `npm run build` from the repository root before committing package/dependency changes.
+- If `npm ci` fails because `package.json` and `package-lock.json` are out of sync, run `npm install --package-lock-only --ignore-scripts --no-fund --no-audit`, rerun `npm ci`, and commit the lockfile with the related package change.
+- Never commit or push dependency/package changes if the repo-root clean install fails.
