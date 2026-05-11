@@ -19,6 +19,13 @@
 
 - This repository currently has no package-managed build or lockfile. Do not invent dependency verification commands that cannot run here.
 - If a `package.json`, workspace manifest, dependency range, lockfile, or dependency update tool is added later, treat the repo-root clean install path as the source of truth for deploy readiness.
+
+Required production/dev dependency update flow if package management is introduced:
+1. Check production and development dependency freshness from the repository root using the chosen package manager's outdated command.
+2. Review both `dependencies` and `devDependencies` in the root and every workspace package; do not limit updates to production-only packages.
+3. Apply needed updates with the narrowest command that updates the relevant manifest and lockfile together.
+4. If the update is only a lockfile/security refresh, regenerate the lockfile from the repository root with scripts disabled where supported.
+5. Run the chosen package manager's audit command and resolve remaining production or dev advisories before committing unless a documented upstream limitation prevents it.
 - For npm-based additions, follow the root `npm ci` discipline: run `npm ci`, `npm run lint`, `npm run typecheck`, and `npm run build` from the repository root before committing package/dependency changes.
 - If `npm ci` fails because `package.json` and `package-lock.json` are out of sync, run `npm install --package-lock-only --ignore-scripts --no-fund --no-audit`, rerun `npm ci`, and commit the lockfile with the related package change.
 - Never commit or push dependency/package changes if the repo-root clean install fails.
